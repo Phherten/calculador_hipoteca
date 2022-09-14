@@ -1,0 +1,8 @@
+Flask==2.2.2
+Jinja2==3.1.2
+Werkzeug==2.2.2
+certifi==0.0.8
+chardet==1.0.1
+distribute==0.6.24
+gunicorn==0.14.2
+requests==2.0.0
