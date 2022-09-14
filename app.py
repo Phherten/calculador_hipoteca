@@ -4,9 +4,11 @@ import requests
 import json
 
 app = Flask(__name__)
-
-
 @app.route('/', methods=['POST'])
+def index():
+    return "LA PAGINA FUNCIONA"
+
+@app.route('/inicio', methods=['POST'])
 def inicio():
     request_body = request.get_json()
     bot_token = "5435944228:AAH9T6qKkSAO-zZjEIYkMn1WuHUSQtuxOcM"
