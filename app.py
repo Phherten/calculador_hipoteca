@@ -4,7 +4,7 @@ import requests
 import json
 
 app = Flask(__name__)
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['GET'])
 def index():
     return "LA PAGINA FUNCIONA"
 
